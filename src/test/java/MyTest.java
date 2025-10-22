@@ -21,4 +21,10 @@ class MyTest {
         Assertions.assertEquals(num, 2, "This should succeed!");
     }
 
+    @Test
+    void test2() {
+        int num = 4;
+        Assertions.assertNotEquals(num, 2, "This should not suceed!");
+    }
+
 }
